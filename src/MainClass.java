@@ -10,7 +10,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         /*
-         * Software per la generazione di tipo di scarpe
+         * Software per la generazione di tipo di scarpe ed altro 
          */
 		
 		Calzatura Reebok;
