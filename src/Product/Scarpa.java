@@ -2,7 +2,7 @@ package Product;
 
 import ConcreteProduct.Colore;
 
-public abstract class Calzatura {
+public abstract class Scarpa {
 	
 	protected Integer taglia;
 	protected Colore colore; 

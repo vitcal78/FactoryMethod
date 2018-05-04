@@ -1,8 +1,7 @@
 
-import Creator.CalzaturaConstructor;
+import Creator.ScarpaConstructor;
 import Creator.GinnicaConstructor;
 import Creator.SandaloConstructor;
-import Product.Calzatura;
 import ConcreteProduct.Colore;
 
 public class MainClass {
@@ -13,17 +12,15 @@ public class MainClass {
          * Software per la generazione di tipo di scarpe ed altro 
          */
 		
-		Calzatura Reebok;
-		Calzatura Guess;
 		
-		CalzaturaConstructor scarpaGinnastica = new GinnicaConstructor(43,Colore.BIANCO);
-		CalzaturaConstructor sandalo = new SandaloConstructor(38,Colore.ARANCIONE); 
 		
-		Reebok = scarpaGinnastica.getCalzatura();
-		Guess = sandalo.getCalzatura();
+		ScarpaConstructor scarpaGinnastica = new GinnicaConstructor(43,Colore.BIANCO);
+		ScarpaConstructor sandalo = new SandaloConstructor(38,Colore.ARANCIONE); 
 		
-		System.out.println(Reebok);
-		System.out.println(Guess);
+		
+		
+		System.out.println(scarpaGinnastica);
+		System.out.println(sandalo);
 		
 		
 	}

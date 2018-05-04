@@ -1,26 +1,23 @@
 package Creator;
 import ConcreteProduct.Colore;
 import ConcreteProduct.Sandalo;
-import Product.Calzatura;
+import Product.Scarpa;
 
-public class SandaloConstructor extends CalzaturaConstructor {
+public class SandaloConstructor extends ScarpaConstructor {
 
-	Integer taglia;
-	Colore colore;
-	
+
 	
 	public SandaloConstructor(Integer t,Colore c) {
 		
-		this.taglia = t;
-		this.colore = c;
+		calz = Constructor(t,c);
 		
 	}
 	
 	
 	@Override
-	protected Calzatura Constructor() {
+	protected Scarpa Constructor(Integer t,Colore c) {
 		// TODO Auto-generated method stub
-		return new Sandalo(taglia,colore);
+		return new Sandalo(t,c);
 	}
 
 	

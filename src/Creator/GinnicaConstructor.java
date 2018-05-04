@@ -1,26 +1,24 @@
 package Creator;
 import ConcreteProduct.Colore;
 import ConcreteProduct.Ginnica;
-import Product.Calzatura;
+import Product.Scarpa;
 
-public class GinnicaConstructor extends CalzaturaConstructor {
-
-	Integer taglia;
-	Colore colore;
+public class GinnicaConstructor extends ScarpaConstructor {
 	
 	
 	public GinnicaConstructor(Integer t,Colore c) {
 		
-		this.taglia = t;
-		this.colore = c;
+		calz = Constructor(t,c);
 		
 	}
 	
 	@Override
-	protected Calzatura Constructor() {
+	protected Scarpa Constructor(Integer t,Colore c) {
 		// TODO Auto-generated method stub
-		return new Ginnica(taglia,colore);
+		return new Ginnica(t,c);
 	}
+	
+	
 	
 
 

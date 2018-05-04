@@ -1,8 +1,8 @@
 package ConcreteProduct;
 
-import Product.Calzatura;
+import Product.Scarpa;
 
-public class Ginnica extends Calzatura {
+public class Ginnica extends Scarpa {
 	
 	public Ginnica(Integer t,Colore c) {
 		
