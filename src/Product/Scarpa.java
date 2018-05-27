@@ -1,7 +1,5 @@
 package Product;
 
-import ConcreteProduct.Colore;
-
 public abstract class Scarpa {
 	
 	protected Integer taglia;

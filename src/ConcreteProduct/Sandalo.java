@@ -1,5 +1,6 @@
 package ConcreteProduct;
 
+import Product.Colore;
 import Product.Scarpa;
 
 public class Sandalo extends Scarpa {

@@ -1,8 +1,8 @@
 
 import Creator.ScarpaConstructor;
+import Product.Colore;
 import Creator.GinnicaConstructor;
 import Creator.SandaloConstructor;
-import ConcreteProduct.Colore;
 
 public class MainClass {
 

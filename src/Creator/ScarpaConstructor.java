@@ -1,5 +1,5 @@
 package Creator;
-import ConcreteProduct.Colore;
+import Product.Colore;
 import Product.Scarpa;
 
 public abstract class ScarpaConstructor {

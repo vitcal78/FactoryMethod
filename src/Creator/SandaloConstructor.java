@@ -1,6 +1,6 @@
 package Creator;
-import ConcreteProduct.Colore;
 import ConcreteProduct.Sandalo;
+import Product.Colore;
 import Product.Scarpa;
 
 public class SandaloConstructor extends ScarpaConstructor {
